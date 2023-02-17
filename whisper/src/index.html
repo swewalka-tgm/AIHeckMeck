@@ -1,0 +1,16 @@
+<h1>How Generative Pre-trained Transformer Models Work: GPT-3 Demystified</h1>
+<p>Have you ever wondered how chatbots like ChatGPT and MIDJOURNEY are able to understand human language and provide accurate responses? These AI models are based on GPT-3, a generative pre-trained transformer model that can process massively long texts and was trained on an incredible amount of data.</p>
+<p>GPT-1 was published in 2018, and since then, there have been several iterations, with GPT-3 being the latest and most powerful. In this article, we will explore the technology behind GPT-3 to demystify the whole topic.</p>
+<p>GPT-3 is a large language model (LLM) that is based on a neural network with 175 billion parameters. To put this into perspective, the first iteration, GPT-1, had only 1.5 billion parameters. The ratio of training data has also increased from 40 GB to 570 GB for GPT-3. However, this does not mean that 175 billion neurons are completely connected to each other. Often, Long Short Term Memory Neurons (LSTMs) are used as neurons in GPT-3.</p>
+<p>LSTMs use several trainable parameters in one neuron. One parameter is for the output, and another is for how much of the previous input, such as a word or a token before, the model may forget or remember. This is important, as writing an essay about GPT-3 is also a valid input for a language model.</p>
+<p>GPT-3 uses a self-attention mechanism, which is a type of neural network that processes all data at the same time with a kind of attention to itself. This allows the model to weigh different tokens differently if it considers them as more important. To generate this attention, the neural network has to process the entire input at once, which happens as follows:</p>
+<ul>
+    <li>Every token that can be a word, sentence, or just a word part is represented as three vectors: Query, Key, and Value.</li>
+    <li>The query vector is used to calculate the weight of the token for the current task.</li>
+    <li>The key is used to calculate the similarity of the token to the rest of the input.</li>
+    <li>Value is then used for the final calculation of the token.</li>
+    <li>The scalar product is calculated between Query and Key in this vector representation, and then all of them are normalized with a softmax.</li>
+    <li>Finally, the model generates the next token for the input, and the process repeats itself.</li>
+</ul>
+<p>While GPT-3 uses a self-attention mechanism, the simplest models work with Next Token Prediction or Masked Language Modeling. This means that the model can add a sentence from "Morphoise loves..." to "Program, Chat GPT, or Cats" and then generate the next word based on context, just like a mobile keyboard predicts the next word. However, GPT-3 is much larger and can process massively long texts.</p>
+y
