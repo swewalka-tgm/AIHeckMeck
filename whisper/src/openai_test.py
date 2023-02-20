@@ -1,5 +1,7 @@
 import os
 import openai
+from src.constants import OPENAI_API_KEY
+
 openai.organization = "Personal"
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv(OPENAI_API_KEY)
 openai.Model.list()
