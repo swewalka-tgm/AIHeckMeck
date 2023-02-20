@@ -1,3 +1,36 @@
+whisper/src/constants.py
+
+Skip to content
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+@swewalka-tgm
+swewalka-tgm /
+AIHeckMeck
+Public
+
+Fork your own copy of swewalka-tgm/AIHeckMeck
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+    Settings
+
+AIHeckMeck/.gitignore
+@swewalka-tgm
+swewalka-tgm Create .gitignore
+Latest commit c7f9001 Feb 17, 2023
+History
+1 contributor
+129 lines (105 sloc) 1.76 KB
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +160,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+AIHeckMeck/.gitignore at main · swewalka-tgm/AIHeckMeck
+
